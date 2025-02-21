@@ -1,0 +1,50 @@
+/* Container Styling */
+.home-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .home-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  /* Loading Message */
+  .loading-message {
+    font-size: 16px;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Available Slots Styling */
+  .available-slots {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  /* Button for Fetching Slots */
+  .fetch-slots-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .fetch-slots-btn:hover {
+    background-color: #0056b3;
+  }
+  
